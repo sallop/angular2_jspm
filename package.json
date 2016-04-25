@@ -1,0 +1,29 @@
+{
+  "name": "angular2_jspm",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server build"
+  },
+  "author": "",
+  "license": "ISC",
+  "jspm": {
+    "directories": {
+      "baseURL": "build"
+    },
+    "dependencies": {
+      "angular2": "npm:angular2@^2.0.0-beta.15",
+      "es6-shim": "github:es-shims/es6-shim@^0.35.0",
+      "jquery": "npm:jquery@^2.2.3",
+      "reflect-metadata": "npm:reflect-metadata@0.1.2",
+      "rxjs": "npm:rxjs@^5.0.0-beta.6",
+      "systemjs": "npm:systemjs@^0.19.26",
+      "zone.js": "npm:zone.js@^0.6.12"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^1.6.2"
+    }
+  },
+  "main": "config.js",
+  "description": ""
+}
